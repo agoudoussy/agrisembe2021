@@ -1,0 +1,14 @@
+.subject-head{
+    text-align:center;
+    font-family:"Montserrat";
+    font-size:1rem;
+    padding: 2% 0;
+    text-transform: uppercase;
+}
+.subject-main{
+    padding-bottom: 1%;
+    box-shadow: -4px 13px 5px -15px rgba(0,0,0,0.56);
+}
+.subject-main{
+    padding-5%;
+}

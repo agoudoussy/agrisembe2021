@@ -9,29 +9,26 @@ body{
 .top-container{
   display: flex;
   width: 100%;
-  height: 30px;
-  background-color:#F9F9F9;
+  background-color:#c4ffa9d7;
   display: inline-flex;
   justify-content: space-around;
 }
-.top-container p{
+.top-container-content{
+  display:flex;
+  justify-content:space-around;
+}
+.top-container-content p{
   font-family: "poppins";
   font-style: italic;
-}
-.slogan {
-  text-align: left;
-  font-size: 14px;
-}
-.tel{
-  font-size: 14px;
-  padding-left: 50%;
-  margin-bottom: 0%;
+  margin-bottom: 0;
+  color:rgb(129, 143, 135) ;
+  font-size:15px;
 }
 
 
 /* Navigation Bar */
 .navbar-nav{
-  margin-left: 50px;
+  margin-left: 180px;
 }
 .navbar .navbar-brand img{
   position: relative;

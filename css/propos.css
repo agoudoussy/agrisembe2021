@@ -1,9 +1,20 @@
+#banner-about {
+  width: 100%;
+  text-align: center;   
+  background-image: url("../image/contact.png");
+  height: 320px;
+  object-fit: cover;
+ 
+}
 .agrisembe-us{
     padding:2% 0;
     text-align: center;
     font-family: "poppins";
     font-size: 15px;
-    background-color: aliceblue;
+    background: linear-gradient(to left, #e9f3ec, #ffffff);
+}
+.agrisembe-us h5{
+  text-align: center;
 }
 .agrisembe-us span{
     color:seagreen;
@@ -28,11 +39,6 @@
     font-size: 18px;   
     text-align: left;
 }
-
-
-
-
-
 .avatar {
     vertical-align: middle;
     width: 200px;
@@ -44,24 +50,18 @@
       padding: 1%;
       margin-top: 40px;
   }
-
-  .team-us-container .row .team-us-col{
+    .team-us-container .row .team-us-col{
     margin-right: 3px;
     padding: 2%;
     border-radius: 20px;
    text-align: left;
   }
-
- 
-
   .card1{
     max-width: 230px;
     text-align: center;
     margin-bottom: 30px;
     height: 330px;
-   
-  }
-  
+  } 
   .title {
     color: grey;
     font-size: 15px;
@@ -95,8 +95,6 @@
   font-family:"Montserrat";
   font-size: 32px;
 }
-
-
 #team-section{
   text-align:center;
   font-family: "Poppins";
@@ -130,3 +128,71 @@
 .profil-icone i{
   color:rgb(81, 97, 85);
 }
+
+
+
+ /*CONTACT*/
+ .contact-section {
+   border-radius: 10px;
+   padding:2% 0;
+   margin:5%;
+   background: linear-gradient(to left, #cdf7d9, #f6f1d3);
+   text-align: center; 
+    
+ }
+ .contact-section h4{
+   font-family:"Montserrat";
+   font-size: 32px;
+ }
+ .contact-line {
+   margin: 1% 0;
+  display: flex;
+  justify-content: center;
+ }
+ .contact-line img{
+   width:50px;
+ }
+ .contact-line hr{
+   width: 10px;
+ }
+ .contact-body{
+   margin-bottom: 2%;
+   padding:2%;
+ }
+ .contact-body .row  .form-left{
+   padding:2%;
+   border-right: 1px solid rgb(145, 145, 145);
+ }
+ .contact-body .row  .form-right{
+  padding:6%;
+ 
+}
+
+ .contact-body .row .col-lg-6 form{
+   text-align: left;
+ }
+
+ .info-contact {
+   display:flex;  
+   margin-bottom:10%;
+  }
+ .contact-icon{
+  display:inline-block;
+  font-size: 25px;
+  line-height: 50px;
+  background-color:#519b20;
+  border-radius: 50px;
+  color:white;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  vertical-align: bottom;
+  margin-left:2%;
+  margin-right:3%;
+ }
+ .info-contact p{
+   font-size:20px;
+   margin-top: auto;
+   margin-bottom:auto;
+ }
+

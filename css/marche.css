@@ -1,10 +1,10 @@
 #banner-section {
     width: 100%;
     text-align: center;   
-    background-image: url("../image/champ.jpg");
-    height: 300px;
-    object-fit: contain;
-   
+    background-image: url("../image/marche.jpg");
+    height: 350px;
+    opacity: 0.9;
+    object-fit: contain;   
   }
 
   .banner-text{
@@ -19,7 +19,7 @@
   .banner-text p{
       font-family: "poppins";
       font-size: 1.5rem;
-      color: rgb(195, 250, 216);
+      color: rgb(255, 255, 255);
   }
   
   /*PRODUCT CARD SECTION*/
@@ -50,6 +50,7 @@
  }
  .img-head{
     width: 5%;
+    margin-bottom: 1%;
 }
 .card-head{
     font-family: "Montserrat";
@@ -98,15 +99,16 @@
     margin-bottom: 1%;
     width: 100%;
 }
-.categorie-container h1{
-    font-size: 9px;
+.categorie-container p{
+    font-size: 20px;
     font-family: "aleo";
     font-weight: bold;
 }
 
 .bloc-search{
     display: flex;
-   justify-content:space-evenly
+   justify-content:space-evenly;
+   align-items: center;
 }
 .bloc-search input{
     font-family: "poppins";
@@ -126,6 +128,50 @@
 }
 .card .btn{
     font-family: "poppins";
+}
+
+/*Products */
+.products-main{
+    margin:0;
+    padding:1%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.products{
+    display:flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    justify-content: center;
+}
+.products li{
+    flex: 0 1 0 rem;
+    margin:1rem;
+    margin-bottom: 0;
+    height:20rem;
+    border-top:0.2rem #e0e0e0 solid;
+    background-color:rgba(168, 71, 71, 0.932);
+}
+.product{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    height:80%;
+}
+.product img{
+    max-height: 26rem;
+    max-width: 22rem;
+    height:100%;   
+}
+
+.product-name a{
+    text-decoration: none;
+    font-family:"Montserrat";
+    color:black;
+    font-style: none;
 }
 
 

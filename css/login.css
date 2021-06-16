@@ -1,0 +1,113 @@
+
+.login-header{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+      box-shadow: 10px 10px 50px rgba(192, 192, 192, 0.5);
+      padding-bottom: 1%;
+      padding-top: 8px;
+}
+
+.login-header p{
+    font-family: "Montserrat ExtraLight";
+    font-style: italic;
+}
+.inscription-form   {
+    padding:2% 5%;
+    background-color: white;
+}
+.conection-form{
+    background-color: white;
+}
+#login-body{
+    padding: 2% 3% 0;
+    background: rgb(243,255,248);
+    padding-bottom: 5;
+/* background: radial-gradient(circle, rgba(243,255,248,1) 0%, rgba(148,210,169,1) 100%);  */
+}
+.login-body-top-text{
+    text-align:center;
+}
+.login-body-top-text img{
+    width: 50px;
+}
+.login-body .top-text{
+    padding-top: 2%;
+    font-family: "Montserrat";
+    font-size: 25px;
+    letter-spacing: 2.5px;
+    margin-top: 0;
+}
+.row{
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+}
+.container{
+    padding: 2% 5%;
+}
+
+.login-name{
+    text-transform: uppercase;
+    font-family: "Montserrat SemiBold";
+    color:#0F5621;
+    font-size: 1.5rem;
+}
+.login-tip{
+    font-style: italic;
+    font-family: "Montserrat ExtraLight";
+    font-size: 1rem;
+}
+.labl{
+    font-family: "Montserrat";
+    font-weight: bold;
+    color:black;
+    padding-top: 1%;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.inpt{
+   margin-bottom: 3%;
+}
+.btn{
+    padding-top: 1%;
+    font-family: "Montserrat SemiBold";
+    font-weight: bold;
+}
+.footer{
+
+    position: relative;
+    top:0;
+    bottom: 0;
+    color:white;
+    text-align:center;
+    background-color: #617E68;
+}
+
+.footer p{
+    padding:auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 30px;
+    font-family: "Montserrat";
+}
+.subscribe-form ,.signin-form{
+    border-radius: 8px;
+    padding: 5%;
+    background-color: white;
+    text-align-last: left;
+}
+.subscribe-form{    
+    height: 360.9px;
+    margin-bottom: 2%;
+}
+.signin-form{
+    background-color: white;
+}
+
+.btn-bottom{
+    display: flex;
+    justify-content: center;
+}
+.btn-bottom .btn{
+    margin-left: 1%;
+}
