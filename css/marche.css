@@ -1,0 +1,131 @@
+#banner-section {
+    width: 100%;
+    text-align: center;   
+    background-image: url("../image/champ.jpg");
+    height: 300px;
+    object-fit: contain;
+   
+  }
+
+  .banner-text{
+      position: relative;
+      text-align: center;
+      margin: auto;
+      color:rgb(255, 255, 255);
+      font-family: "Montserrat";
+      top: 100px;
+  }
+
+  .banner-text p{
+      font-family: "poppins";
+      font-size: 1.5rem;
+      color: rgb(195, 250, 216);
+  }
+  
+  /*PRODUCT CARD SECTION*/
+
+  .product-header{
+      text-align: center;
+      font-family: "Montserrat";
+      padding: 2% 7%;
+      background-color: #f2f4f5;
+      margin-bottom: 2%;
+
+  }
+  .product-header .container{
+      margin-top: 10px;
+  }
+   .product-main h3{
+       text-align: center;
+   }
+  .product-main span{
+      color:#14ad3a;    
+      font-weight: bold; 
+  }
+ .product-header .subtitle{
+     color:rgb(45, 77, 54);
+ }
+ #product-place .card-head {
+     text-align: center;
+ }
+ .img-head{
+    width: 5%;
+}
+.card-head{
+    font-family: "Montserrat";
+}
+.categories{
+    align-content: center;
+    margin-bottom: 20px;
+    background-color: white;
+    -webkit-box-shadow: -4px 13px 5px -15px rgba(0,0,0,0.56);
+    -moz-box-shadow: -4px 13px 5px -15px rgba(0,0,0,0.56);
+    box-shadow: -4px 13px 5px -15px rgba(0,0,0,0.56);
+}
+.categories .col-lg-2 h1{
+    font-size: 2rem;
+}
+.categories .vr{
+    text-align: center;
+    border-left: 2px solid rgb(177, 177, 177);
+    height: 50px;
+    width: 0px;
+    margin-bottom: 1%;
+}
+.card{
+    border:none;
+    -webkit-box-shadow: -4px 13px 5px -15px rgba(0,0,0,0.56);
+    -moz-box-shadow: -4px 13px 5px -15px rgba(0,0,0,0.56);
+    box-shadow: -4px 13px 5px -15px rgba(0,0,0,0.56);
+}
+.categories i{
+    padding-right: 8px;
+}
+
+.product-list-card{
+    text-items: center;
+    margin-bottom: 20px;
+}
+
+.product-list-card .col-lg-3{
+ margin:0 9px 0 0;
+}
+.embed-responsive .card-img-top {
+    object-fit: cover;
+}
+.categories .btn{
+    border-radius: 50px;
+    margin-bottom: 1%;
+    width: 100%;
+}
+.categorie-container h1{
+    font-size: 9px;
+    font-family: "aleo";
+    font-weight: bold;
+}
+
+.bloc-search{
+    display: flex;
+   justify-content:space-evenly
+}
+.bloc-search input{
+    font-family: "poppins";
+   margin-right:1%;
+   border-radius: 60px;  
+}
+.embed-responsive .card-img-top {
+    object-fit: cover;
+}
+
+.card{
+   text-align: center;
+    height: 380px;
+}
+.btn i{
+    margin-right: 5px;
+}
+.card .btn{
+    font-family: "poppins";
+}
+
+

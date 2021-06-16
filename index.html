@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>AgriSembé</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- <link rel="stylesheet"href="css/bootstrap.min.css">
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="css/all.min.css"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" />
+</head>
+
+<body>
+  <!--HEADER SECTION-->
+  <section class="header">
+    <!--Navigation bar-->
+    <div class="top-container container">
+      <p class="slogan">"consommons local"</p>
+      <p class="tel"> <i class="fas fa-phone-alt"></i> (+224) 626 64 25 72/ 669 74 92 99</p>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand " id="brand" href="">
+          <img src="image/logo agrisembé.png" alt="">
+        </a>
+        <div class="navbartoogler">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-autonavbar-nav-scroll" style="--bs-scroll-height: 100px;">
+
+            <li class="nav-item"><a class="nav-link" href="../index.html">ACCUEIL</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                MARCHE
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="marche.html">Place de marché</a></li>
+                <li><a class="dropdown-item" href="#">Prix du marché</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="">ECHANGE D'EXPERTISE AGRICOLE</a></li>
+            <li class="nav-item"><a class="nav-link" href="">FORMATION</a></li>
+            <li class="nav-item"><a class="nav-link" href="propos.html">A PROPOS</a></li>
+            <button type="button" class="btn btn-primary  btn-sm "><i
+              class="fas fa-user"></i>S'inscrire</button>
+          <button type="button" class="btn btn-primary  btn-sm  "><i
+            class="fas fa-sign-in-alt"></i>Se Connecter</button>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <!--SLIDER SECTION-->
+  <section class="slider">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="slide-img" src="image/banner image.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-header">
+            <h1>"<Span>AGRI</Span>Sembé</h1>
+            <p class="slide-text">LE DIGITALE AU SERVICE<br> DE L'AGRICULTURE "</p>
+            <a href="marche.html">
+              <button id="btn" type="button" class="btn btn-success  btn-lg"><i
+                class="fas fa-angle-double-right"></i>Nos produits</button>
+          </a>
+          <a href="propos.html">
+            <button id="btn" type="button" class="btn btn-success btn-lg"><i
+              class="fas fa-angle-double-right"></i> Savoir plus</button>
+        </a>
+          </div>
+        </div>
+
+
+      </div>
+  </section>
+
+  <!--PRESENTATION SECTION-->
+  <section id="presentation">
+    <div class=" container solution-title">
+      <h2> <span>Historique</span>/Mission</h2>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 ">
+          <p>Après plusieurs études menées par mon binôme et moi, nous
+            avons identifié une série de problèmes dans le secteur agricole
+            en Guinée. L’un des problèmes les plus importants est la
+            commercialisation des produits agricoles transformés dans le pays.
+            Nous avions aussi remarqué qu’il y avait énormément de femmes qui
+            travaillent dans le secteur, mais qu’elles n’avaient pas de visibilité,
+            et les produits qu’elles transformaient n’étaient pas non plus
+            disponibles dans les boutiques, dans les supers marchés. </p>
+          <p> Avec notre connaissances en informatique, nous avons jugé
+            nécessaire de mettre en place une plateforme digitale
+            e-commerce d’où la création «<strong> AgriSembè </Strong>»
+            qui d’une part va «<strong> permettre aux agriculteurs
+              d’écouler leur produits tout en en leurs permettant
+              d’intégré un nouveau type de marché et d’autre part
+              mettre les acteurs du secteur en relation. </Strong>»</p>
+          <button id="btn" type="button" class="btn btn-outline-success "><i class="fas fa-angle-double-right"></i>
+            Explorez le marché</button>
+          <button id="btn" type="button" class="btn btn-outline-success "><i class="fas fa-angle-double-right"></i>En
+            Savoir plus sur nous</button>
+        </div>
+        <div class="col-lg-6 ">
+          <img src="image/champ.jpg" id="col-img" alt="AgriSembé image">
+        </div>
+      </div>
+  </section>
+
+  <!--Mission  SECTION-->
+  <section id="mission">
+    <div class="mission-title container text-center">
+      <h2 class="text-center"> <span>Nos</span> Objectifs</h2>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 ">
+          <div class="card-header ">
+            <i class="fa fa-globe fa-3x"></i>
+            <p>PROMOUVOIR</p>
+          </div>
+          <div class="card-body">
+            <p> Nous promouvons l’agriculture locale par le biais de
+              l’outil informatique, tout en valorisant les différents
+              produits localement cultivés, mais aussi les services proposés
+              par les acteurs agricoles.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 ">
+          <div class="card-header ">
+            <i class="fas fa-hands-helping fa-3x"></i>
+            <p>CONNECTER</p>
+          </div>
+          <div class="card-body">
+            <p>Nous connectons les investisseurs et producteurs à leurs
+              consommateurs potentiels et informons sur les prix,
+              tendances et données du marché en temps réel.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 ">
+          <div class="card-header ">
+            <i class="fas fa-comments fa-3x"></i>
+            <p>DISCUTER</p>
+          </div>
+          <div class="card-body">
+            <p> Nous créons un espace d’échange d’idée, d’expertise et de
+              solution entre les différents
+              acteurs pour accroitre la courbe de croissance agricole. </p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 ">
+          <div class="card-header ">
+            <i class="fa fa-globe fa-3x"></i>
+            <p>TROUVER</p>
+          </div>
+          <div class="card-body">
+            <p>Nous permettons aux investisseurs et producteurs de trouver
+              un marché ou un terrain tout en leurs apportant un bon rapport
+              qualité/prix et une grande sécurité
+              pour les acheteurs et consommateurs de produits.</p>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!--PRODUCT SECTION-->
+  <section id="product">
+    <div class="container-fluid" id="container">
+      <div class="title-product">
+        <img class="f-img" src="image/feuille logo.png" class="" s alt="">
+        <h3>Découvrez nos produits</h3>
+        <p class="subtitle-product">ce que nous vous proposons</p>
+      </div>
+      <div class="product-container container">
+        <div class="row">
+          <div id="colum" class="col-lg-3 col-md-6 col1">
+            <div class="card " id="card1">
+              <img src="image/intrant.jpg" alt="">
+              <div class="overlay">
+                <div class="text"><i class=""></i>Vente de semence et Intrant Agricole</div>
+              </div>
+            </div>
+          </div>
+          <div id="colum" class="col-lg-3 col-md-6 col2">
+            <div class="card " id="card2">
+              <img src="image/legumes.jpg" alt="">
+              <div class="overlay">
+                <div class="text">Fruits et legumes </div>
+              </div>
+            </div>
+          </div>
+          <div id="colum" class="col-lg-3 col-md-6 col3">
+            <div class="card" id="card3 ">
+              <img src="image/cereale.webp" alt="">
+              <div class="overlay">
+                <div class="text">Céréale et Tubercule</div>
+              </div>
+            </div>
+          </div>
+          <div id="colum" class="col-lg-3 col-md-6 col4 ">
+            <div class="card" id="card4">
+              <img src="image/equipement.webp" alt="">
+              <div class="overlay">
+                <div class="text">Materiel et Equipement</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product-btn text-center">
+          <a href="marche.html">
+            <button style="color:whiteSmoke; border-color: white; border-radius: 100px;" type="button"
+            class="btn btn-outline-success ">Decouvrir plus</button>
+          </a>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--profil SECTION-->
+  <section id="work-section">
+    <div class=" container work-title mission-title text-center">
+      <h3>Vous <span>êtes</span></h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae repellat cumque saepe recusandae ullam
+        magnam doloribus facilis labore, facere id vero eius illo dolore quibusdam temporibus corporis mollitia natus
+        hic?</p>
+    </div>
+    <div class="container">
+      <div class="row ">
+        <div class="col-lg-6">
+          <div class="banner-wrapper">
+            <img src="image/boxes.jpg " class="img-fluid" alt="">
+            <div class="work-text ">
+              <h3>Consomateurs</h3>
+              <div class="container">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Rem illo ad aperiam, </p>
+              </div>
+              <div class="div">
+                <button type="button" class="btn btn-outline-light">S'inscrire</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="banner-wrapper">
+            <img src="image/carrots.jpg" class="img-fluid" alt="">
+            <div class="work-text bg-color">
+              <h3>Agriculteurs</h3>
+              <div class="container">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Rem illo ad aperiam, </p>
+              </div>
+              <div class="div">
+                <button type="button " class="btn btn-outline-light button ">S'inscrire</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--PARTENAIRE SECTION-->
+  <section id="partner">
+    <div class=" container-fluid partner-row">
+      <div class="title-partenaire ">
+        <h3>Nos <span> Partenaires</span></h3>
+        <p>Accompagnez dans nos travaux en devenant partenaire avec nous</p>
+      </div>
+      <div class="btn">
+        <button class="btn btn-success">Devenir Partenaire</button>
+      </div>
+    </div>
+  </section>
+
+  <!--FOOTER SECTION-->
+  <section>
+    <div class="container-fluid f-footer">
+      <div class="row">
+        <div class="col-lg">
+          <div class="f-title">
+            <h4 style="text-align: left;">A PROPOS</h4>
+          </div>
+          <div class="f-body">
+            <p>
+              Nous sommes une plateforme digitale spécialisé dans la promotion agricole
+              , la commercialisation et la vente des intrats agricole.
+              Nous connecitons les agriculteurs et producteurs locaux aux
+              Acheteurs potentiels sur un marché numérique tout en
+              assurant la securité des données et transaction.
+
+            </p>
+          </div>
+        </div>
+        <div class="col-lg">
+          <div class="f-title">
+            <h4>CONTACT</h4>
+          </div>
+          <div class="f-body" id="f-body">
+
+            <p> <i class="fa fa-phone-alt icon"></i>nongo/Commune de Ratoma</p>
+            <p> <i class="fa fa-search-location icon"></i>(+224) 626 64 25 72 / 669 74 92 99</p>
+            <p><i class="fa fa-at icon"></i>agrisembe-gn@gmail.com</p>
+            <p><i class="fab fa-facebook-f icon"></i>agrisembe-gn</p>
+
+
+          </div>
+        </div>
+        <div class="col-lg">
+          <div class="f-title">
+            <h4>LAISSER UN MESSAGE</h4>
+          </div>
+          <div class="f-body">
+            <form action="POST">
+              <div class="mb-2">
+                <label type="text" class="form-text">Adresse Mail </label>
+                <input type="email" class="form-control form-control-sm" placeholder="agrisembé@gmail.com">
+                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                <textarea class="form-control" style="resize: none;" id="exampleFormControlTextarea1"
+                  placeholder="Votre message......" rows="2"></textarea>
+                <button type="button" class="btn btn-success mt-2  py-l3">Envoyer</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="footer">
+      <p>@copyright 2021 AgriSembè -Agribusiness</p>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

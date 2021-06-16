@@ -1,0 +1,374 @@
+body{
+  font-family: 'Montserrat Medium';
+  color:black;
+  margin: auto;
+  font-size: 5rem;
+}
+
+/* top-block */
+.top-container{
+  display: flex;
+  width: 100%;
+  height: 30px;
+  background-color:#F9F9F9;
+  display: inline-flex;
+  justify-content: space-around;
+}
+.top-container p{
+  font-family: "poppins";
+  font-style: italic;
+}
+.slogan {
+  text-align: left;
+  font-size: 14px;
+}
+.tel{
+  font-size: 14px;
+  padding-left: 50%;
+  margin-bottom: 0%;
+}
+
+
+/* Navigation Bar */
+.navbar-nav{
+  margin-left: 50px;
+}
+.navbar .navbar-brand img{
+  position: relative;
+  bottom:14px;
+  width: 170px;
+}
+#navbarTogglerDemo02 .navbar-nav .btn-primary{
+  margin-right: 15px;
+  border-radius: 50px;
+  border:none;
+  background-color: rgb(59, 182, 75);
+  color: rgb(255, 255, 255);
+  font-family: "poppins";
+}
+.navbartoogler{
+  padding-right: 30px;
+}
+.nav-link{
+  font-family: "Montserrat";
+  color:white;
+  font-size: 14px;
+}
+.nav-link:hover{
+  color:#0E6D37;
+}
+.nav-item{
+  position: relative;
+  right:auto;
+  margin:0 25px 0 0px;
+}
+.btn i{
+  margin-right: 5px;
+}
+#brand{
+  color: #047225;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: start;
+  padding-left: 20px;
+}
+.brand-part{
+  color:white;
+  z-index: 100;
+}
+
+/* Slider */
+.carousel-header{
+  position: absolute;
+  top:50%;
+  left: 30%;
+  transform: translate(-50%,-50%);
+  z-index: 100;
+}
+.carousel-header h1{
+  font-size: 60px;
+  font-weight: bold;
+  color:white;
+}
+.carousel-header span{
+  color:#97FF34;
+}
+.carousel-header p{
+  color:white;
+  font-family: 'Montserrat Medium';
+  font-size: 30px;
+}
+.carousel-item .slide-img{
+ width: 100%;
+ height: 20%;
+ object-fit: contain;
+}
+.carousel-item button{
+  border-radius: 50px;
+  font-family: 'Montserrat Medium';
+}
+.slide-text{
+  margin-left: 30px;
+}
+
+/* PRESENTATION SECTION */
+#presentation{
+  background-color: #f7f6f6;
+}
+
+.solution-title{
+  text-align: left;
+  padding:0 0 5px 0;
+  font-family: 'poppins';
+  color: rgb(49, 49, 49);
+}
+.span-presentation{
+  color:#14ad3a;
+}
+#presentation .solution-title h2{
+  font-family: "poppins";
+  padding-top: 4%;
+  color: #14ad3a;
+
+
+}
+#presentation .solution-title span{
+  color: rgb(37, 37, 37);
+
+}
+#presentation .container .row .col-lg-6 {
+  font-family: 'poppins';
+  color:#147777;
+}
+#presentation .container  hr{
+ width: 50%;
+}
+#presentation .container .row .col-lg-6 p{
+  display: inline block;
+  font-family: 'poppins';
+   color:#5F6363;
+   padding: 0 0 10px 0;
+   text-align: justify;
+
+ }
+ 
+
+#presentation .container .row .col-lg-6 img{
+  top: -5px;
+  width: 80%;
+  border-radius: 1000px;
+  text-align:center;
+ }
+#col-img{
+ position: relative;
+ left:10%;
+
+}
+
+/* MISSION */
+.mission-title{
+  font-family: "poppins";
+  padding-top: 4%;
+  color: #181818;
+}
+.mission-title .row{
+  padding: 3% 0 0 0;
+}
+.mission-title .row .card-body{
+   color:#616060;
+   text-align: center;
+}
+.mission-title h2{
+  font-family: "poppins";
+  color: #14ad3a;
+}
+.mission-title p{
+  color:#5F6363;
+}
+.mission-title span{
+  color:rgb(37, 37, 37);
+}
+
+.mission-title .row i{
+  color:#7cd183
+}
+.mission-title .row .card-header p{
+  padding:15px 0 2px 0;
+  color:#000000;
+  font-weight: bold;
+  font-family: 'Montserrat';
+  font-size: 17px;
+}
+
+
+/* PRODUCT SECTION */
+
+#product{
+  color:white;
+  text-align: center;
+  margin-top:3%;
+  overflow: hidden;
+  background-image: url("../image/champ.jpg");
+}
+.product-container{
+  padding:  0 0% 2% 0;
+}
+
+.title-product{
+  text-align: center;
+  font-family: 'poppins';
+  color:#ffffff;
+  padding: 1%;
+}
+#product .row .product-btn{
+  color:white;
+}
+.product-container .row #colum .card img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+.subtitle-product{
+  font-family: "Montserrat Thin";
+  font-size: 18px;
+  color: rgb(240, 240, 240);
+}
+#colum{
+  position: relative;
+  padding:2%;
+}
+
+.card{
+  height: 250px;
+  border-radius: 100px;
+  background-color: transparent;
+}
+ .row{
+  margin-left:15%;
+}
+.f-img{
+  width: 5%;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(69, 121, 105);
+  opacity: 0.88;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+.text {
+  color: white;
+  font-weight: bold;
+  font-family: "poppins";
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#colum:hover .overlay {
+  height: 100%;
+}
+/* PROFIL SECTION */
+.img-fluid{
+  width: 100%;
+  height: 80%;  
+}
+.work-text{
+  font-family:"poppins";
+  color:white;
+  position: relative;
+  background: #83ca00;
+}
+.work-text h3{
+  text-align: left;
+  padding: 2% 0 0 4%;
+}
+.banner-wrapper p{
+  font-family: "Montserrat";
+  color:rgb(0, 0, 0);
+  text-align: justify;
+}
+.banner-wrapper button{
+  text-align: center;
+  margin:1% 5%;  
+}
+.bg-color{
+  background-color:#ff8520;
+}
+
+/* PARTNER SECTION */
+#partner{
+  text-align:center;
+}
+.title-partenaire span{
+  color:#14ad3a;
+  font-family: "Montserrat";
+}
+.partner-row{
+  margin: 3%;
+  padding: 2%;
+  text-align: center;
+}
+
+/* FOOTER */
+
+.f-title h4{
+  padding-top: 2%;
+  font-family:"poppins";
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(39, 39, 39);
+}
+.f-footer{
+  background-color: #B1BBAD;
+  padding: 2% 10%;
+  color: #5a5956;
+}
+.footer{
+  box-sizing: content-box;
+  background: rgb(60, 71, 62);
+  text-align: center;
+  color:white;
+}
+.footer p{
+  margin-bottom: 0px;
+  padding:10px 0;
+}
+#f-body{
+  padding: 1% 18%
+}
+.f-body p{
+  font-family: "aleo";
+ text-align: justify;
+ color:rgb(77, 77, 77);
+}
+
+#f-body p{
+  margin-bottom: 0px;
+}
+#f-body i{
+  color:rgb(61, 122, 66);
+  border-radius: 30px;
+  width: 30px;
+  height: 30px;
+
+}
+
+
+
+
+/*......MARCHE STYLE........*/
